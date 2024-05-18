@@ -1,10 +1,10 @@
 {
-	// 42 format
+	// 42 school C-format
 	/*"[c]": {
 		"editor.defaultFormatter": "keyhr.42-c-format"
 	},*/
 
-	// Miscellaneous
+	// Files
 	//"files.autoSave": "afterDelay",
 	"files.trimTrailingWhitespace": true,
 	"files.insertFinalNewline": true,
@@ -29,7 +29,7 @@
 	"editor.cursorSurroundingLines": 10,
 	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 	"editor.guides.indentation": false,
-	//"editor.formatOnSave": true, //autoformat on save
+	//"editor.formatOnSave": true, // autoformat on save
 	//"editor.wordWrap": "off",
 
 	// Diff Editor
@@ -57,7 +57,7 @@
 
 	// Vim
 	"vim.enableNeovim": false,
-	"vim.leader": "/", //change according to keyboard
+	"vim.leader": "/", // change according to keyboard
 	"vim.cursorStylePerMode.insert": "block",
 	"vim.cursorStylePerMode.normal": "block",
 	"vim.easymotion": true,

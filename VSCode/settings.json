@@ -1,0 +1,83 @@
+{
+	// 42 format
+	/*"[c]": {
+		"editor.defaultFormatter": "keyhr.42-c-format"
+	},*/
+
+	// Miscellaneous
+	//"files.autoSave": "afterDelay",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+
+	// Editor
+	"editor.lineNumbers": "relative",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.fontSize": 16,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.overviewRulerBorder": false,
+	"editor.glyphMargin": false,
+	"editor.renderLineHighlight": "none",
+	"editor.cursorStyle": "block",
+	"editor.cursorBlinking": "solid",
+	"editor.folding": false,
+	"editor.autoClosingBrackets": "never",
+	"editor.cursorSurroundingLines": 10,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.guides.indentation": false,
+	//"editor.formatOnSave": true, //autoformat on save
+	//"editor.wordWrap": "off",
+
+	// Diff Editor
+	"diffEditor.renderSideBySide": false, // differences will be displayed in a unified view instead of side by side
+
+	// Workbench
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.enableExperiments": false,
+
+	// Window
+	"window.closeWhenEmpty": true,
+
+	// Explorer
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// Telemetry
+	"telemetry.telemetryLevel": "off",
+
+	// Extensions
+	"extensions.ignoreRecommendations": true,
+
+	// Breadcrumbs
+	"breadcrumbs.enabled": false,
+
+	// Vim
+	"vim.enableNeovim": false,
+	"vim.leader": "/", //change according to keyboard
+	"vim.cursorStylePerMode.insert": "block",
+	"vim.cursorStylePerMode.normal": "block",
+	"vim.easymotion": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.handleKeys": { "<C-a>": false, "<C-f>": false },
+	//"vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+	//"vim.incsearch": true,
+	//"vim.hlsearch": true,
+	"vim.insertModeKeyBindings": [
+		{"before": ["<leader>", "e"], "after": ["<Esc>"] }],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{"before": ["<leader>", "d"], "after": ["d", "d"] },
+		{"before": ["<leader>", "s"], "after": [],
+			"commands": [{ "command": "workbench.action.splitEditor" }]},
+		{"before": ["<leader>", "f"], "after": [],
+			"commands": [{ "command": "workbench.action.focusFirstEditorGroup" }]},
+		{"before": ["<leader>", "j"], "after": [],
+			"commands": [{ "command": "workbench.action.focusSecondEditorGroup" }]}
+		/*{"before": ["<leader>", "a"], "after": [],
+			  "commands": [{ "command": "workbench.action.focusActiveEditorGroup" }]},
+		/*{"before": ["<C-n>"], "after": [], "commands": [{ "command": ":nohl" }]}*/],
+}

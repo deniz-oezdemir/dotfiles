@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+j",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "alt+k",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "alt+l",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "alt+;",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "alt+f",
+		"command": "editor.action.goToReferences",
+		"when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+	},
+]

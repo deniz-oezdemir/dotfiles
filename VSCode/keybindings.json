@@ -18,7 +18,7 @@
 		"command": "workbench.action.showCommands"
 	},
 	{
-		"key": "alt+f",
+		"key": "alt+i",
 		"command": "editor.action.goToReferences",
 		"when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
 	},
